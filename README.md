@@ -7,9 +7,9 @@ Include the required files and library.
 ### STEP 2:
 Declare the block size and the size of elements.
 ### STEP 3:
-Introduce Kernel function to perform matrix multiplication.In the kernal function,decalre the row column size and initialize the sum to be 0,then using for loop calculate the sum.
+Introduce Kernel function to perform matrix multiplication. In the kernel function, declare the row column size and initialize the sum to be 0, then using for loop calculate the sum.
 ### STEP 4:
-Intoduce a Main function, in the main method declare the required variables and Initialize the matrices 'a' and 'b'.Allocate memory on the device and then copy the input matrices from host to device memory and set the grid and block sizes. Launch the kernel,Copy the result matrix from device to host memory,Print the result matrix and the elapsed time followed by freeing the device memory.
+Introduce a Main function, in the main method declare the required variables and initialize the matrices 'a' and 'b'. Allocate memory on the device and then copy the input matrices from host to device memory and set the grid and block sizes. Launch the kernel, Copy the result matrix from device to host memory, Print the result matrix and the elapsed time followed by freeing the device memory.
 ### STEP 5:
 Save the program and execute it.
 ## PROGRAM:
